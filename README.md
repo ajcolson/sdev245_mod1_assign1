@@ -32,9 +32,9 @@ For the purposes of the assignment, two accounts are created at startup:
 | Command | Description |
 | --- | --- |
 | `list` | Shows the current user's list.|
-| `add` | Add a new item to a user's list.|
-| `remove` | Remove an item from a user's list by item number.|
-| `removeall` | Remove all items for a user's list.|
+| `add` | Add a new item to the current user's list.|
+| `remove` | Remove an item from the current user's list by item number.|
+| `removeall` | Remove all items for the current user's list.|
 | `passwd` | Change the password of the current user. |
 
 ## Admin Commands
@@ -43,6 +43,6 @@ For the purposes of the assignment, two accounts are created at startup:
 | Command | Description |
 | --- | --- |
 | `listuser` | Shows a list of all users. |
-| `adduser` | Shows the current user's list. _Requires the admin user to be signed in._|
-| `removeuser` | Remove an item from a user's list by item number.<br>___Note: The admin user cannot be removed.___ |
+| `adduser` | Add a new user. _Requires the admin user to be signed in._|
+| `removeuser` | Remove an existing user.<br>___Note: The admin account cannot be removed.___ |
 | `passwduser` | Change a password for a user. |
